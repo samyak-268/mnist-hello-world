@@ -11,7 +11,7 @@ torch.setdefaulttensortype('torch.FloatTensor')
 
 cmd = torch.CmdLine()
 cmd:text()
-cmd:text("Training model for face recognition")
+cmd:text("Training model for classifying MNIST")
 cmd:text()
 cmd:text("Options")
 cmd:option("-gpu", 0, "set this flag to 1 if you want to use GPU")
